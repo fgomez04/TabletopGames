@@ -2,9 +2,9 @@
   "game": "TicTacToe",
   "nPlayers": 2,
   "mode": "exhaustive",
-  "matchups": 100,
+  "matchups": 1000,
   "verbose": false,
   "listener": "json/listeners/basiclistener.json",
-  "destDir": "outputdir/lab3/rl2",
-  "playerDirectory": "json/lab3/players"
+  "destDir": "outputdir/lab3/rl10",
+  "playerDirectory": "json/myPlayers"
 }
