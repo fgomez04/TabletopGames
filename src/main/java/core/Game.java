@@ -711,15 +711,15 @@ public class Game {
         /* Set up players for the game */
         ArrayList<AbstractPlayer> players = new ArrayList<>();
 
-//        players.add(new MCTSPlayer());
+        players.add(new MCTSPlayer());
 //        players.add(new HumanConsolePlayer());
 //        players.add(new HumanConsolePlayer());
-//        players.add(new RandomPlayer());
 //        players.add(new RandomPlayer());
 //        players.add(new RandomPlayer());
         players.add(new RandomPlayer());
+        players.add(new RandomPlayer());
 //        players.add(new HumanGUIPlayer(ac));
-//        players.add(new BasicMCTSPlayer());
+        players.add(new BasicMCTSPlayer());
         players.add(new BasicMCTSPlayer());
 //        players.add(new BasicMCTSPlayer());
 //        players.add(new BasicMCTSPlayer());
